@@ -22,6 +22,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //font-awesome-icons -->
 <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //Data table-->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
 </head>
 <body>
 <!-- header -->
@@ -48,11 +51,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 						<nav class="menu menu--iris">
 							<ul class="nav navbar-nav menu__list">
-								<li class="menu__item menu__item"><a href="index.html" class="menu__link">Normatividad</a></li>
-								<li class="menu__item menu__item--current"><a href="alistamiento.html" class="menu__link">Alistamiento</a></li>
-								<li class="menu__item menu__item"><a href="diagnostico.html" class="menu__link">Diagnóstico</a></li>
-								<li class="menu__item menu__item"><a href="evaluacion.html" class="menu__link">Evaluación</a></li>
-								<li class="menu__item menu__item"><a href="mot.html" class="menu__link">MOT</a></li>
+								<li class="menu__item menu__item--current"><a href="normatividad.html" class="menu__link">Normativo</a></li>
+                                <li class="menu__item menu__item"><a href="quienes.html" class="menu__link">Quienes Somos</a></li>
+                                <li class="menu__item menu__item"><a href="diagnostico.html" class="menu__link">Diagnóstico</a></li>
+                                <li class="menu__item menu__item"><a href="participan.html" class="menu__link">Quienes Participan</a></li>
+                                <li class="menu__item menu__item"><a href="mot.html" class="menu__link">MOT</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -69,7 +72,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="about">
 		<div class="container">
 		<div class="w3-heading-all">
-			<h3>Alistamiento</h3>
+			<h3>Normativo</h3>
 		    </div>
 			<div class="agileits_w3layouts_team_grids w3ls_about_grids new-agileinfo">
 				<div class="col-md-6 w3ls_banner_bottom_left w3ls_about_left">
@@ -107,7 +110,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	<!-- team -->
 </div>
-<!-- //team -->
+
+<div class="content">
+    <table id="tblNorma" class="cell-border" style="width: 100%;">
+        <thead>
+            <tr>
+                <td>Normativa</td>
+                <td>Normativa</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Norma Nacional</td>
+                <td>LEY 1454</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>LEY 388</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>LEY DISTRITOS</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>LEY AREA METROPOLITANA</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>ACUERDO COT 010</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 <!-- footer -->
 <div class="w3l_footer">
 	<div class="container">
@@ -165,6 +201,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
+        $('#tblNorma').DataTable();
 	});
 </script>
 
