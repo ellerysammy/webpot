@@ -553,9 +553,6 @@ p.logo_w3l_agile_caption {
 .w3ls_about_left_grid:nth-child(2) {
     margin: 2.2em 0;
 }
-.w3ls_about_left_grid:nth-child(3) {
-    margin: 2.2em 0;
-}
 .w3ls_about_left_grid i.fa{
     color: #dca44b;
     margin-right: 0.8em;
@@ -2521,7 +2518,7 @@ li.menu__item {
 .img-page-content{
     height: 415px !important;
 }
-.banner-alistamiento{
+.banner-normatividad{
 	background: url(../images/gob/slide1_img.jpg) no-repeat 0px -200px;
     background-size: cover;	
 	-webkit-background-size: cover;	
@@ -2539,7 +2536,7 @@ li.menu__item {
 	-moz-background-size: cover;	
 	min-height:300px;
 }
-.banner-evaluacion{
+.banner-quienes{
 	background: url(../images/gob/slide3_img.jpg) no-repeat 0px -200px;
     background-size: cover;	
 	-webkit-background-size: cover;	
@@ -2557,3 +2554,14 @@ li.menu__item {
 	-moz-background-size: cover;	
 	min-height:300px;
 }
+.dv_left_enumNorma{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.enumNorma{
+    margin-left: 30px;
+}
+/* .w3ls_about_left_grid:nth-child(3) {
+    margin: 2.2em 0;
+} */
