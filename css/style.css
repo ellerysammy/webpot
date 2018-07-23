@@ -2597,3 +2597,10 @@ td i.fa{
 .powby{
     font-size: 0.5em !important;
 }
+div.dv_left_enumNorma a{
+    color: #333333;
+    display: block;
+}
+div.dv_left_enumNorma a:visited{
+    color: #333333 !important;
+}
