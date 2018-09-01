@@ -2,11 +2,12 @@ body{
 	margin:0;
 	padding:0;
 	background:#fff;
-	font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Sanchez Regular', SanchezRegular;
  }
 h1,h2,h3,h4,h5,h6{
 	margin:0;	
-	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
 }	
 p{
 	margin:0;
@@ -16,7 +17,7 @@ ul{
 	padding:0;
 }
 p,ul,ol{
-	font-size:14px;
+	font-size:16px;
 }
 input[type="submit"],a,.nbs-flexisel-nav-left,.nbs-flexisel-nav-right{
 	transition:.5s ease-in;
@@ -62,7 +63,7 @@ a:focus{
 }
 .navbar-nav > li > a {
     margin: 0;
-    padding:0 1.5em;
+    /* padding:0 1.5em; */
     text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a:hover{
@@ -82,7 +83,8 @@ nav.navbar.navbar-default {
     background: none;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+    /* color: #000; */
+    color: #FFF;
 }
 .navbar-default .navbar-nav  > .active.open > a:focus {
 	background: #0a9dbd;
@@ -100,6 +102,7 @@ nav.navbar.navbar-default {
     line-height:35px;
     position: relative;
     font-weight: 700;
+    top:14px;
 }
 .navbar-brand span {
     color: #82b9e2;
@@ -419,10 +422,11 @@ p.logo_w3l_agile_caption {
 }
 .w3-heading-all h3{
     font-size: 3em;
-    color: #f2184f;
+    /* color: #f2184f; */
+    color: #D22225;
     text-align: center;
-		 margin-bottom:40px;
-		 text-transform: capitalize;
+    margin-bottom:40px;
+    text-transform: capitalize;
 }
 /* about */
 .about-left img {
@@ -552,10 +556,12 @@ p.logo_w3l_agile_caption {
     margin-right: 0.8em;
 }
 .w3ls_about_left_grid a {
-    color: #f2184f;
+    /* color: #f2184f; */
+    color: #d22225;
 }
 .w3ls_about_left_grid a:visited {
-    color: #f2184f;
+    /* color: #f2184f; */
+    color: #d22225;
 }
 /*-- //about page--*/
 /*-- /services --*/
@@ -679,14 +685,14 @@ p.logo_w3l_agile_caption {
     margin: 1em 0;
     font-size: 21px;
 }
-.teaminfo {
+/* .teaminfo {
     border: 1px solid #e8e8e8;
     padding: 1em 2em;
     border-top: transparent;
 	-webkit-box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
 	box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
-}
+} */
 .teamgrids {
     margin-top: 5em;
 }
@@ -2603,4 +2609,44 @@ div.dv_left_enumNorma a{
 }
 div.dv_left_enumNorma a:visited{
     color: #333333 !important;
+}
+.dvContentIn{
+    width: 100%;
+    background-image:  url(../images/gob/avanza.png);
+}
+
+.dvContentIn div.banner-top{
+    width:80%;
+    position: relative;
+    left: 10%;
+    background-color: #FFFFFF;
+    border: 1px solid #C3CBC6;
+}
+.dvContentIn div.w3l_footer{
+    width:80%;
+    position: relative;
+    left: 10%;
+    border: 1px solid #C3CBC6;
+}
+div.header img{
+    width: 100%;
+}
+.agileits_w3layouts_team_grids{
+    /* border-left: 1px solid #C3CBC6;
+    border-right: 1px solid #C3CBC6; */
+    border-bottom: 1px solid #C3CBC6;
+}
+div.teamgrid1{
+    border: 1px solid #e8e8e8;
+    box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
+    padding: 1em 0em 1em 1em;
+    align-content: center;
+    text-align: center;
+    text-align: -webkit-center;
+}
+@font-face {
+    font-family: 'Sanchez Regular';
+    src: url('/fonts/Sanchezregular.otf');
 }

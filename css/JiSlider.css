@@ -1,8 +1,9 @@
 /****** JiSlider css ******/
-	#JiSlider {
-				width: 100%;
-				height: 100%;
-			}
+#JiSlider {
+	width: 100%;
+	/* height: 100%; */
+	height: 500px;
+}
 .jislider ul {
 	height: 100%;
 	margin: 0;
