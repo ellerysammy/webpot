@@ -318,10 +318,11 @@ p.logo_w3l_agile_caption {
     left: 0;
     width: 100%;
 }
+
 .agileits-banner-info h3 {
     color: #fff;
-    font-size: 4em;
-    margin: 0.1em 0 0.2em 0;
+    font-size: 2em;
+    margin: 0.1em 11em 0.2em 0;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 700;
@@ -329,7 +330,6 @@ p.logo_w3l_agile_caption {
 	-webkit-text-shadow: 1px 1px 2px rgb(12, 12, 12);
 	-o-text-shadow: 1px 1px 2px rgb(12, 12, 12);
 	-moz-text-shadow: 1px 1px 2px rgb(12, 12, 12);
-	
 }
 .agileits-banner-info h3 span{
 	    background: #2529d8;
@@ -337,7 +337,7 @@ p.logo_w3l_agile_caption {
 }
 .agileits-banner-info {
     text-align: center;
-    padding: 18em 0 0em;
+    padding: 12em 0 0em;
 }
 .agileits-banner-info p {
     color: #e2dfdf;
@@ -1679,14 +1679,14 @@ position:relative;
 	left:0;
 	-webkit-transform: scale(0);
 	transform: scale(0);
-        background-color: #dca44bad;
+    background-color: #000000ad;
 }
 .gallery1:hover .textbox {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
 .gallery-grid img{
-		width:100%;
+	width:80%;
 }
 
 .textbox {
@@ -1695,12 +1695,12 @@ transition: all 0.7s ease;
 text-align:center;
 }
 .textbox h4 {
-    font-size: 1.8em;
+    /* font-size: 1.8em; */
     color: #FFF;
-    margin-top: 3.5em;
+    /* margin-top: 3.5em; */
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
 }
 .textbox p {
      font-size: 26px !important;
@@ -1929,19 +1929,19 @@ button.btn1:hover i.fa.fa-paper-plane-o{
 /*-- //subscribe --*/
 /*-- footer --*/
 .w3l_footer {
-    /* background: #0e0e0e; */
-    background: #009645;
+    /* background: #009645; */
+    background: #000;
     padding: 3em 0;
 }
-.w3ls_footer_grid_left {
-    width: 50%; /*33.3%;*/
-}
+/* .w3ls_footer_grid_left {
+    width: 50%;
+} */
 .w3ls_footer_grid_left h4 {
     font-size: 1.2em;
     color: #fff;
     letter-spacing: 5px;
     margin-bottom: .6em;
-	    font-weight: 600;
+	font-weight: 600;
 }
 .w3ls_footer_grid_left p {
     /* color: #9c9c9c; */
@@ -2018,7 +2018,7 @@ button.btn1:hover i.fa.fa-paper-plane-o{
 }
 .w3ls_footer_grid {
     margin: 0 auto;
-    text-align: center;
+    /* text-align: center; */
 }
 /*-- copyright --*/
 .footer-bot {
@@ -2634,6 +2634,7 @@ div.dv_left_enumNorma a:visited{
     position: relative;
     left: 10%;
     border: 1px solid #C3CBC6;
+    border-top: 5px solid #009645;
 }
 div.header img{
     width: 100%;
@@ -2656,4 +2657,31 @@ div.teamgrid1{
 @font-face {
     font-family: 'Sanchez Regular';
     src: url('/fonts/Sanchezregular.otf');
+}
+.twfeed{
+    display: inline-block;
+}
+#dvContactosFoo{
+    position: relative;
+    width: 30%;
+    display: inline-block;
+}
+#dvMapsFoo{
+    position: relative;
+    width: 65%;
+    display: inline-block;
+    margin-left: 49px;
+}
+#dvContacTitle{
+    width: 100%;
+    border-bottom: 1px solid #C3CBC6;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle;
+}
+.spanTitleFoo{
+    color: #ffffff;
+    font-size: 14pt;
+    font-weight: bold;
+    width: 100%;
 }
