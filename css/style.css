@@ -37,8 +37,11 @@ a:focus{
 /*--header -top--*/
 /*-- nav --*/
 .w3_navigation {
-    padding: 0.9em 0;
-    background: #009645;
+    /* padding: 0.9em 0; */
+    /* background: #009645; */
+    background: #FFFFFF;
+	border-top: 3px solid #009645;
+    border-bottom: 1px solid #C3CBC6;
 }
 .navbar-default {
     background: none;
@@ -69,6 +72,7 @@ a:focus{
 .navbar-default .navbar-nav > li > a:hover{
     /* color:#f2184f; */
     color: #fff;
+    background: #009645;
 }
 .navbar-default .navbar-nav > li > a:focus {
     color: #33cc99;
@@ -76,33 +80,34 @@ a:focus{
 }
 nav.navbar.navbar-default {
     background: none;
-    padding:1em 0 0 0;
+    /* padding:1em 0 0 0; */
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color:#33cc99;
     background: none;
 }
 .navbar-default .navbar-nav > li > a {
-    /* color: #000; */
-    color: #FFF;
+    color: #000;
+    /* color: #FFF; */
 }
 .navbar-default .navbar-nav  > .active.open > a:focus {
 	background: #0a9dbd;
 	color: #fff;
 }
 .navbar-default .navbar-brand,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #dca44b;
+    /* color: #dca44b; */
+    color: #009645;
 }
 .navbar-brand {
     padding: 0;
     /* font-size:1em; */
     font-size:0.7em;
     text-transform: uppercase;
-    letter-spacing:1px;
+    letter-spacing:5px;
     line-height:35px;
     position: relative;
     font-weight: 700;
-    top:14px;
+    top:8px;
 }
 .navbar-brand span {
     color: #82b9e2;
@@ -215,7 +220,7 @@ p.logo_w3l_agile_caption {
 /*-- nav-effect --*/
 .menu__list {
 	position: relative;
-	margin:0.5em 0 0;
+	/* margin:0.5em 0 0; */
 }
 
 .menu__item {
@@ -239,7 +244,7 @@ p.logo_w3l_agile_caption {
 }
 /* Iris */
 .menu--iris .menu__item {
-	margin:0 0.5em;
+	margin:0em;
 }
 
 .menu--iris .menu__link {
@@ -255,7 +260,9 @@ p.logo_w3l_agile_caption {
 }
 
 .menu--iris .menu__item--current .menu__link,.menu__link:hover {
-	color:#dca44b;
+    /* color:#dca44b; */
+    color: #FFFFFF;
+    background: #009645;
 }
 
 .menu--iris .menu__link::before,
