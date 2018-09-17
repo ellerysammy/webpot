@@ -150,6 +150,12 @@ p.logo_w3l_agile_caption {
 .imglogo{
     width: 18%;
 }
+.imglogoPotd{
+    float: left;
+    height: 50px;
+    width: 255px;
+	padding: 0;
+}
 .header > .container{
     margin: 0px !important;
 }
@@ -374,13 +380,14 @@ p.logo_w3l_agile_caption {
 /*-- banner-top --*/
 .w3layouts-banner-top{
     /* background: url(../images/ba1.jpg) no-repeat 0px 0px; */
-    background: url(../images/gob/slide1_img.jpg) no-repeat 0px 0px;
+    background: url(../images/gob/girl_speaking.JPG) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
 	-o-background-size: cover;		
 	-moz-background-size: cover;
-	min-height:700px;
+    min-height:700px;
+    background-position-y: -200px;
 }
 .w3layouts-banner-top1{
     /* background: url(../images/ba2.jpg) no-repeat 0px 0px; */
@@ -394,13 +401,14 @@ p.logo_w3l_agile_caption {
 }
 .w3layouts-banner-top2{
     /* background: url(../images/ba3.jpg) no-repeat 0px 0px; */
-    background: url(../images/gob/slide3_img.jpg) no-repeat 0px 0px;
+    background: url(../images/gob/man_speaking.JPG) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
 	-o-background-size: cover;		
 	-moz-background-size: cover;	
-	min-height:700px;
+    min-height:700px;
+    background-position-y: -200px;
 }
 .w3layouts-banner-top3{
 	background: url(../images/ba4.jpg) no-repeat 0px 0px;
@@ -2684,4 +2692,29 @@ div.teamgrid1{
     font-size: 14pt;
     font-weight: bold;
     width: 100%;
+}
+.bannerProspectiva{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    vertical-align: middle;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    padding: 9px;
+    border-top: 5px solid #009645;
+    background-color: #faf8f8;
+}
+a.lnkdescProspectiva{
+    color: #D22225;
+    font-weight: bolder;
+}
+a.lnkdescProspectiva:visited{
+    color: #D22225;
+    font-weight: bolder;
+}
+.spnbannerProspectiva{
+    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle;
+    color: #009645;
+    font-weight: bolder;
 }
